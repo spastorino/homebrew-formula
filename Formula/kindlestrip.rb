@@ -7,7 +7,7 @@ class Kindlestrip < Formula
   version '1.35-dilo_sec'
 
   def install
-    mv "kindlestrip.py", "kindlestrip"
+    mv "kindlestrip_v135.py", "kindlestrip"
     chmod 0755, "kindlestrip"
     bin.install "kindlestrip"
   end
